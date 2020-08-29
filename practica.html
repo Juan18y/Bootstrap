@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+ 	<head>
+	   	<!-- Required meta tags -->
+	   	<meta charset="utf-8">
+	   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	   	<!-- Bootstrap CSS -->
+	   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	   	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	   	<title>Practica35</title>
+ 	</head>
+	<body>
+		<div class="navbar fixed-top sticky-top text-light bg-dark">
+			Datos
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="card col-6">
+					<div class="card-header"><h1>Informacion Pertinente</h1></div>
+					<div class="card-body">
+						Lorem ipsum dolor sit amet
+						<a href="#" data-toggle="tooltip" data-placement="top" title="Esto es una Prueba">Tocame :D</a>
+						consectetur adipisicing elit. Modi eveniet corrupti, earum doloremque, sapiente aliquam quaerat et sint iste veritatis.
+					</div>
+				</div>
+				<div id="demo" class="carousel slide col-6 text-center" data-ride="carousel">
+
+  					<!-- Indicators -->
+  					<ul class="carousel-indicators">
+    					<li data-target="#demo" data-slide-to="0" class="active"></li>
+   						<li data-target="#demo" data-slide-to="1"></li>
+    					<li data-target="#demo" data-slide-to="2"></li>
+  					</ul>
+
+					<!-- The slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+					      <img src="img/yoshi.png" alt="Yoshi">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/kirba.png" alt="Kirby">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/ness.png" alt="Ness">
+					    </div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					   <span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+					   <span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-light col-12 bg-dark text-light p-2" data-toggle="modal" data-target="#ejemplo">
+					Dame un click :D
+				</button>
+				<div class="modal fade" id="ejemplo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+					<div class="modal-dialog">
+					  	<div class="modal-content">
+					      	<div class="modal-header">
+					        	<h3 class="modal-title">Bienvenido a mi pagina :D</h3>
+					      	</div>
+					      	<div class="modal-body">
+					        	<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Sequi qui, pariatur nihil minus praesentium aliquam vitae quasi consequuntur itaque officia. Ut ab nisi possimus a vitae, minima consequatur rerum ad.</p>
+					      	</div>
+					      	<div class="modal-footer">
+					        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+					      	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="card col-12">
+				<div class="card-header"><h1>Registro</h1></div>
+					<div class="card-body">
+						<form>
+							<div class="form-row">
+								<div class="form-group col-8">
+									<label for="Email">Correo Electronico</label>
+									<input type="email" class="form-control" id="Email" aria-describedby="ayuda" placeholder="jdortiz@gmail.com">
+					 				<small id="ayuda" class="form-text text-muted">Nunca compartiremos tu correo con alguien, puedes tener la seguridad de navegar tranquilo</small>
+								</div>
+								<div class="form-group col-4">
+									<label for="password">Contraseña</label>
+									<input type="password" class="form-control" id="password" aria-describedby="ayuda">
+					 				<small id="ayuda" class="form-text text-muted">Asegurate de ingresar correctamente tu contraseña</small>
+								</div>
+							</div>
+							<label for="radio">Genero:</label>
+							<div class="custom-control custom-radio">
+				  				<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+				  				<label class="custom-control-label" for="customRadio1">Masculino</label>
+							</div>
+							<div class="custom-control custom-radio">
+				  				<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+				  				<label class="custom-control-label" for="customRadio2">Femenino</label>
+							</div>
+							<div class="custom-control custom-radio">
+				  				<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+				  				<label class="custom-control-label" for="customRadio3">Otro</label>
+							</div>
+							<button type="submit" class="btn btn-info text-right">Guardar</button>
+						</form>
+					</div>	
+				</div>
+			</div>	
+		</div>			
+  		<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+    	<script type="text/javascript" src="js/popper.min.js"></script>
+    	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    	<script type="text/javascript" src="js/tooltips.js"></script>
+  	</body>
+</html>
